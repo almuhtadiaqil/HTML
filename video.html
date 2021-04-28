@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Surat Perjanjian">
+    <meta name="keyword" content="HTML, CSS, JS, PHP, MYSQL">
+    <meta name="author" content="Muhammad Aqil Al - Muhtadi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+
+    <!-- Video Langsung -->
+    <h3>Video Langsung</h3>
+    <video src="https://w3schools.com/html/mov_bbb.mp4" controls></video>
+    
+    <br>
+    <!-- Video Muted -->
+    <h3>Video Muted</h3>
+    <video muted src="https://w3schools.com/html/mov_bbb.mp4" controls></video>
+    
+    <br>
+    <!-- Setelah video berakhir, video akan mengulang -->
+    <h3>Video  Loop</h3>
+    <video src="https://w3schools.com/html/mov_bbb.mp4" loop controls></video>
+
+    <br>
+    <!-- Jika link video rusak, langsung melihat di source berikutnya -->
+    <h3>Video Multiple Source</h3>
+    <video controls>
+        <source
+        src="https://w3schools.com/html/mov_bbb.mp4" type="video/tag">
+        <source
+        src="https://w3schools.com/html/mov_bbb.ogg" type="video/ogg"> 
+    </video>
+</body>
+</html>
